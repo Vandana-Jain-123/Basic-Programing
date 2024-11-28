@@ -13,3 +13,16 @@ function checkPrime(num){
 
 }
 checkPrime(23);
+
+function checkEvenOdd(num){
+    for(let i=1;i<=num;i++){
+        if (num % i == 0) {
+
+            return true;
+        }else{
+            return false;
+        }
+    }
+
+}
+checkEvenOdd(13)
